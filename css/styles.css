@@ -6,13 +6,17 @@
 	box-sizing: border-box;
 } 
  
+body {
+    font-family: 'Metal Mania', cursive;
+    background: #000
+}
 .bg-navegador {
     background: #000;
 }
 
 .nav-item {
-    font-family: 'Metal Mania', cursive;
-    font-size: 30px;    
+    /* font-family: 'Metal Mania', cursive; */
+    font-size: 24px;    
 }
 
 .nav-item a{
@@ -23,6 +27,30 @@
     color: red;
 }
 
-.jumbo {
+.contenedor h1,
+.contenedor p {
+    color: #fff;
+}
+.h1 {
+    font-size: 45px;
+}
+.suscribete {
+    font-size: 27px;
+}
 
+.btn {
+    font-size: 20px;
+}
+.wacken {
+    width: 100%;
+}
+
+.terminos a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.terminos a:hover {
+    color: green;
 }
