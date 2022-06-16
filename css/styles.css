@@ -54,3 +54,8 @@ body {
 .terminos a:hover {
     color: green;
 }
+
+.proximos {
+    text-align: center;
+    color: white;
+}
