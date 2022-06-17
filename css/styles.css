@@ -23,7 +23,7 @@ body {
 }
 
 .nav-item a:hover{
-    color: red;
+    color: green;
 }
 
 .contenedor h1,
@@ -90,5 +90,15 @@ body {
     transition: transform 2s ease, opacity .5s ease-out;
 }
 
+.music  {
+    padding: 20px;
+}
 
+.lista-item a{
+    color:#fff
+}
+
+.lista-item a:hover{
+    color: green;
+}
 
