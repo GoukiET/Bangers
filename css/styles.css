@@ -14,8 +14,7 @@ body {
     background: #000;
 }
 
-.nav-item {
-    /* font-family: 'Metal Mania', cursive; */
+.nav-item {    
     font-size: 24px;    
 }
 
@@ -60,7 +59,36 @@ body {
     color: white;
 }
 
+.bg-product {
+    background:#000 ;
+   
+}
+
+.card img {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .card img:hover {
+    opacity: 1.0;
+  }
+
+  .card-body > p, h5 {
+    text-align: center;
+  }
+
+.vermas {
+    display: flex;
+    justify-content: center;
+}
+
+.catalogo {
+    color:#fff;
+    text-align: center;
+}
 .carousel-item {
     transition: transform 2s ease, opacity .5s ease-out;
 }
+
+
 
